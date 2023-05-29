@@ -1,0 +1,79 @@
+.footer {
+  background: #121211;
+}
+
+.footer-container {
+  max-width: 1200px;
+  padding: 120px 20px 60px 20px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 100px;
+  align-items: center;
+}
+
+.footer-texto{
+  font-size:1.5rem;
+  line-height: 1.33;
+  color:#989897;
+}
+
+.footer-contato h3{
+  font-weight: bold;
+  font-size:1.25rem;
+  line-height:1.4;
+  color: #ffffff;
+  margin-bottom: 30px;
+  position: relative;
+}
+
+.footer-contato h3::before {
+  display: block;
+  content: "";
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: -36px;
+ 
+}
+
+.email::before{
+  background: url("../img/envelope.svg") no-repeat center center;
+}
+
+.telefone::before{
+  background: url("../img/whatsapp.svg") no-repeat center center;
+}
+
+.linkedin::before{
+  background: url("../img/linkedin.svg") no-repeat center center;
+}
+
+.github::before{
+  background: url("../img/github.svg") no-repeat center center;
+}
+
+.footer-contato h3 a{
+  color: #ffffff;
+}
+
+.footer-copy{
+  grid-column: 1/-1;
+  font-size:0.875rem;
+  color:#989897;
+  text-align: center;
+}
+
+@media (max-width:800px){
+  .footer-container{
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+  .footer-contato h3{
+    font-size:1rem;
+  }
+  .footer-contato h3::before {
+    position: initial;
+    margin-bottom: 10px;
+  }
+}
