@@ -26,6 +26,6 @@ Para rodar este projeto em sua máquina será necessário clonar o repositório.
 
 ## 📄 Licença
 
-Este projeto está sob a licença GNU General Public License v3.0 - veja o arquivo [LICENSE](https://github.com/anabeatrizalmeida/monte_seu_hamburguer/blob/master/LICENSE) para detalhes.
+Este projeto está sob a licença GNU General Public License v3.0 - veja o arquivo [LICENSE](https://github.com/anabeatrizalmeida/projeto-pessoal/blob/master/LICENSE) para detalhes.
 
 ---
